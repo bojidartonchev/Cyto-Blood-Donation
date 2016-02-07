@@ -85,7 +85,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/action_sign_in"
             android:textStyle="bold"
-            android:background="#cb0000"
+            android:background="#bc2027"
             android:textColor="#ffffff" />
 
         <Button
@@ -96,9 +96,16 @@
             android:layout_marginTop="16dp"
             android:text="@string/sign_up"
             android:textStyle="bold"
-            android:background="#cb0000"
+            android:background="#bc2027"
             android:textColor="#ffffff" />
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/heart"
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>

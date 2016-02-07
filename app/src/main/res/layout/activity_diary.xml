@@ -12,4 +12,22 @@
 
     <!-- Login progress -->
 
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false" />
+
+    <Button
+        style="?android:textAppearanceSmall"
+        android:id="@+id/make_apoinment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/make_an_appoinment"
+        android:textStyle="bold"
+        android:background="#bc2027"
+        android:textColor="#ffffff" />
+
 </LinearLayout>

@@ -34,7 +34,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/my_profile"
         android:textStyle="bold"
-        android:background="#cb0000"
+        android:background="#bc2027"
         android:textColor="#ffffff" />
 
     <Button
@@ -45,7 +45,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/blood_donation"
         android:textStyle="bold"
-        android:background="#cb0000"
+        android:background="#bc2027"
         android:textColor="#ffffff" />
 
     <Button
@@ -56,8 +56,20 @@
         android:layout_marginTop="16dp"
         android:text="@string/diary"
         android:textStyle="bold"
-        android:background="#cb0000"
+        android:background="#bc2027"
         android:textColor="#ffffff"
         android:layout_gravity="right" />
+
+    <Button
+        style="?android:textAppearanceSmall"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:background="@drawable/share"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11" />
 
 </LinearLayout>

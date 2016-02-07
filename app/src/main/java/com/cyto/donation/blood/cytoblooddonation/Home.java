@@ -66,7 +66,7 @@ public class Home extends Activity {
                         break;
                     }
                     case MotionEvent.ACTION_UP:
-                        Intent i = new Intent(getBaseContext(), BloodDonation.class);
+                        Intent i = new Intent(getBaseContext(), BloodDonationPlaces.class);
                         startActivity(i);
 
                     case MotionEvent.ACTION_CANCEL: {
