@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.cyto.donation.blood.cytoblooddonation.Login"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="#fdfdfe">
 
     <!-- Login progress -->
 
@@ -83,6 +84,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/action_sign_in"
+            android:textStyle="bold"
+            android:background="#cb0000"
+            android:textColor="#ffffff" />
+
+        <Button
+            style="?android:textAppearanceSmall"
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/sign_up"
             android:textStyle="bold"
             android:background="#cb0000"
             android:textColor="#ffffff" />

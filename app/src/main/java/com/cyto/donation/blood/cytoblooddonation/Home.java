@@ -1,6 +1,7 @@
 package com.cyto.donation.blood.cytoblooddonation;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -40,8 +41,8 @@ public class Home extends Activity {
                         break;
                     }
                     case MotionEvent.ACTION_UP:
-                        //Intent i = new Intent(getBaseContext(), Game.class);
-                        //startActivity(i);
+                        Intent i = new Intent(getBaseContext(), UserProfile.class);
+                        startActivity(i);
 
                     case MotionEvent.ACTION_CANCEL: {
                         Button view = (Button) v;
@@ -65,8 +66,8 @@ public class Home extends Activity {
                         break;
                     }
                     case MotionEvent.ACTION_UP:
-                        //Intent i = new Intent(getBaseContext(), Game.class);
-                        //startActivity(i);
+                        Intent i = new Intent(getBaseContext(), BloodDonation.class);
+                        startActivity(i);
 
                     case MotionEvent.ACTION_CANCEL: {
                         Button view = (Button) v;
@@ -90,8 +91,8 @@ public class Home extends Activity {
                         break;
                     }
                     case MotionEvent.ACTION_UP:
-                        //Intent i = new Intent(getBaseContext(), Game.class);
-                        //startActivity(i);
+                        Intent i = new Intent(getBaseContext(), Diary.class);
+                        startActivity(i);
 
                     case MotionEvent.ACTION_CANCEL: {
                         Button view = (Button) v;

@@ -94,8 +94,10 @@ public class Login extends Activity implements LoaderCallbacks<Cursor> {
         });
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        Button mEmailSignUpButton = (Button) findViewById(R.id.register);
         Typeface type = Typeface.createFromAsset(getAssets(), "fonts/Grandstander.ttf");
         mEmailSignInButton.setTypeface(type);
+        mEmailSignUpButton.setTypeface(type);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
